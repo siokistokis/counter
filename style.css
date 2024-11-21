@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: aquamarine;
+}
+ 
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+    .bmiCalculator {
+        background-color: lavender;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5%;
+ 
+        h1 {
+            color: orchid;
+            font-size: 45px;
+            padding-top: 20px;
+        }
+ 
+        hr {
+            width: 90%;
+        }
+    }
+    .middle{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+       
+        .height,
+        .weight{
+           width: 450px;
+           height: 45px;
+           font-size: 25px;
+           
+        }
+        .titles{
+            color: orchid;
+            font-size: 20px;
+            font-weight: 200;
+        }
+        .calculate{
+            margin-top: 10px;
+            width: 450px;
+            padding: 12px;
+            background-color: orchid;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-size: 22px;
+        }
+
+        .count {
+            margin: 35px 5px;
+            font-size: 22px;
+            color:orchid;
+            font-weight: 100;
+            padding-left: 10px;
+        }
+        .reset {
+            background-color: orchid;
+            padding: 18px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-size: 18px;
+        }
+       
+    }
+}
+
+/* .counterAppContainer {
+    background-color: #005490;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
